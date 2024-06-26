@@ -9,7 +9,7 @@ function App() {
   const theme = useMemo(()=>createTheme(themeSettings),[])
 
   return (
-   š
+   
     <>
       <div className="app">
         <BrowserRouter>
@@ -17,7 +17,7 @@ function App() {
                <CssBaseline/>
                 <Box width ="100%" height="100%" padding=" 1rem 2rem 4rem 2rem">
                    <Routes>
-                     <Route path ="/" element ={<div>dashboard page</div>} />
+                     <Route path ="/" element ={<div>dashboard pae</div>} />
 
                    </Routes>
                 </Box>
