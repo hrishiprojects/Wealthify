@@ -18,7 +18,7 @@ function App() {
                 <Box width ="100%" height="100%" padding=" 1rem 2rem 4rem 2rem">
                   <Navbar/>
                    <Routes>
-                     <Route path ="/" element ={<div>dashboard pae</div>} />
+                     <Route path ="/" element ={<div>dashboard page</div>} />
 
                    </Routes>
                 </Box>
